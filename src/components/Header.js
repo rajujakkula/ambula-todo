@@ -17,6 +17,7 @@ const Header = ({ title, onShow, toggleShow }) => {
 Header.defaultProps = {
   title: "Welcome",
 };
+
 Header.propTypes = {
   title: PropTypes.string.isRequired,
 };

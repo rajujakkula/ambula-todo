@@ -3,8 +3,8 @@ import { FaTimes } from "react-icons/fa";
 const Task = ({ tasks, onDelete, onToggle }) => {
   return (
     <div
-      // ADDING REMINDER CLASS TO THE DIV
-      className={`tasksStyle ${tasks.reminder ? "reminder" : ""}`}
+      // ADDING COMPLETED CLASS TO THE DIV
+      className={`tasksStyle ${tasks.completed ? "reminder" : ""}`}
       onDoubleClick={() => onToggle(tasks.id)}
     >
       <h3>
